@@ -1,0 +1,193 @@
+body {
+  font-family: Helvetica, sans-serif; }
+
+.wrapper {
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto; }
+
+.button {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 2rem;
+  padding: 0.5rem 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0.75rem; }
+
+.button_highlight {
+  background-color: #7ac483; }
+
+.button_secondary {
+  background: rgba(250, 250, 250, 0.35); }
+
+.button_small {
+  padding: 0.75rem 1.75rem; }
+
+.button_large {
+  padding: 1rem 5rem;
+  font-size: 1.5rem; }
+
+* {
+  box-sizing: border-box; }
+
+.cf:after, .cf::before {
+  content: " ";
+  display: table; }
+
+.cf::after {
+  clear: both; }
+
+#banner {
+  background-image: url(../images/information_technology_767x400.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #banner header {
+    padding: 2rem 0; }
+  #banner #logo {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.35rem;
+    float: left;
+    margin: 0; }
+    #banner #logo span {
+      font-weight: 400; }
+  #banner nav {
+    float: right; }
+    #banner nav a {
+      color: #FFFFFF;
+      font-weight: 700;
+      text-decoration: none;
+      margin-left: 2rem; }
+  #banner .content {
+    padding: 4rem 0 8rem 0; }
+    #banner .content .title, #banner .content .sub_title {
+      color: #FFFFFF;
+      text-align: center; }
+    #banner .content .title {
+      font-size: 3rem;
+      margin: 0; }
+    #banner .content .sub_title {
+      font-weight: 400;
+      font-size: 1.35rem;
+      width: 500px;
+      margin: 0 auto 2rem auto;
+      line-height: 2rem; }
+    #banner .content .button_wrapper {
+      text-align: center;
+      margin: 3rem 0; }
+
+#services {
+  background-color: #f2f1f8;
+  padding: 2rem 0 6.5rem 0;
+  position: relative; }
+  #services .service {
+    background-color: #FFFFFF;
+    width: 31%;
+    float: left;
+    margin: -5rem 1% 0 1%;
+    padding: 3rem 2.5%;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+    border-radius: 0.35rem; }
+    #services .service h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #3f3d4e; }
+    #services .service p {
+      margin: 0 0 2rem 0;
+      color: #3f3d4e; }
+    #services .service .button {
+      padding: 0.5rem 2rem; }
+
+#past_work {
+  background: #3f3d4e;
+  padding: 5rem 0 25rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden; }
+  #past_work .title {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    margin: 0 0 .75rem 0; }
+
+#slider_buttons {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0; }
+  #slider_buttons a {
+    text-decoration: none; }
+  #slider_buttons li {
+    height: 9px;
+    width: 9px;
+    margin: 0 .5rem;
+    position: relative;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: #FFFFFF;
+    transition: background .4s ease-in-out; }
+    #slider_buttons li:hover {
+      background: #7ac483; }
+  #slider_buttons .current {
+    background-color: #7ac483; }
+
+#slider {
+  list-style: none; }
+  #slider li {
+    width: 600px;
+    height: 375px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+    position: absolute;
+    z-index: 3;
+    border-radius: 0.35rem 0.35rem 0 0; }
+    #slider li img {
+      width: 600px;
+      height: 375px; }
+    #slider li:nth-child(1) {
+      bottom: -37px;
+      left: 0;
+      transform: scale(0.8, 0.8);
+      z-index: 2; }
+    #slider li:nth-child(2) {
+      left: 50%;
+      margin-left: -300px;
+      z-index: 4;
+      bottom: 0; }
+    #slider li:nth-child(3) {
+      bottom: -37px;
+      right: 0;
+      transform: scale(0.8, 0.8);
+      z-index: 2; }
+
+#contact {
+  background: #f2f1f8;
+  padding: 6rem 8rem;
+  text-align: center; }
+  #contact .title {
+    font-size: 2.5rem;
+    color: #3f3d4e;
+    margin: 0; }
+  #contact .sub_title {
+    font-size: 1.5rem;
+    color: #b9b7c6;
+    width: 600px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 4rem auto; }
+
+footer {
+  padding: 1rem 0; }
+  footer .copyright {
+    text-align: center;
+    font-weight: 700;
+    color: #b9b7c6; }
+    footer .copyright a {
+      color: #7ac483;
+      text-decoration: none; }
+
+/*# sourceMappingURL=styles.css.map */
